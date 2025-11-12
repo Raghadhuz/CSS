@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); /* 4 boxes per row */
+      gap: 10px;
+      background-color: orange;
+      padding: 10px;
+    }
+
+    .box {
+      color: white;
+      font-size: 30px;
+      text-align: center;
+      padding: 40px 0;
+      font-family: Arial;
+    }
+
+    .box:nth-child(1){background:#1abc9c;}
+    .box:nth-child(2){background:#3498db;}
+    .box:nth-child(3){background:#9b59b6;}
+    .box:nth-child(4){background:#34495e;}
+    .box:nth-child(5){background:#f1c40f; color:black;}
+    .box:nth-child(6){background:#e67e22;}
+    .box:nth-child(7){background:#e74c3c;}
+    .box:nth-child(8){background:#95a5a6;}
+    .box:nth-child(9){background:#2ecc71;}
+    .box:nth-child(10){background:#16a085;}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+    <div class="box">6</div>
+    <div class="box">7</div>
+    <div class="box">8</div>
+    <div class="box">9</div>
+    <div class="box">10</div>
+  </div>
+</body>
+</html>
